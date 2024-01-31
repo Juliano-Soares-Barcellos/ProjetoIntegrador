@@ -31,6 +31,7 @@ body
 .Botoes
 {
     display: flex;
+    height: 50px;
 
 }
 
@@ -100,6 +101,21 @@ a
     list-style-type: none;
 
 }
+#Whid
+{
+   
+    width: 40%;
+   justify-content: flex-end     
+}
+#Whid:hover {
+    cursor: pointer;
+    background-color: #964b00;
+    color:whitesmoke;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+
 #Borda
 {
     margin-top: 5%;
@@ -187,26 +203,15 @@ li
     min-height:100px;
     object-fit: cover;
 }
-#entre{
-    border:2px solid black;
-    transition: width 3s ;
-}
-#entre:hover{
-    cursor:pointer;
-    width: 30%;
-    text-align: center;
-    color:white;
-    background-color: black;
-}
-#excluir{
+
+
+#excluir,#func,#entre,#mostraCompra{
  
     border:2px solid black;
-    transition: width 3s ;
-}
- #excluir:hover{
     cursor:pointer;
     width: 30%;
     text-align: center;
     color:white;
     background-color: black;
 }
+
